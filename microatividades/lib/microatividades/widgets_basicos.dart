@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-// Corrigido para retornar um Widget diretamente, sem chamar runApp.
+ 
 Widget exemplo1() {
-  // Retorna diretamente o widget da página.
-  return const StatelessWidgetExemplo("Olá Flutter - MaterialApp");
+   
+  return const StatelessWidgetExemplo("MaterialApp,Scaffold e AppBar");
 }
 
 class StatelessWidgetExemplo extends StatelessWidget {
@@ -16,10 +16,16 @@ class StatelessWidgetExemplo extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(_appBarTitle),
+        backgroundColor: const Color(0xff2196F3), 
+        titleTextStyle: const TextStyle(
+          color: Colors.white, 
+          fontSize: 20, 
+          fontWeight: FontWeight.bold, 
+        ),
         leading: IconButton(
           icon: const Icon(Icons.arrow_back),
           onPressed: () {
-            // Verifica se pode voltar antes de chamar o pop
+             
             if (Navigator.canPop(context)) {
               Navigator.pop(context);
             }
@@ -27,7 +33,11 @@ class StatelessWidgetExemplo extends StatelessWidget {
         ),
       ),
       body: const Center(
-        child: Text('Macoratti .net'),
+        child: Text('Bom Dia Estácio, aqui esta o exemplo de uso dos widgets basicos baseado na especificação',style: TextStyle(color: Colors.green,
+        fontWeight:FontWeight.w700,
+        fontSize: 20,
+         ),textAlign: TextAlign.center,
+        ),
       ),
     );
   }

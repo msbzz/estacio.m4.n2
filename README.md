@@ -153,260 +153,133 @@ fundamentos necessários para criar aplicativos incríveis.
  
 <br>
 
+# Inicio das Microatividades (Compomentes)
+
+```
+ Foi adaptado um menu drawer para o acesso as atividades, a numerção das atividades, 
+ será mantida como forma de referência a especificação original.  
+
+``` 
+<BR> 
+ <img src="images/app.microatividades.apresentacao.png" alt="" style="width: 85%; display: block;"/>
+ 
+<br>
+
+ - Inicialização do App
+
+<BR> 
+ <img src="images/app.microatividades.inicializacao.png" alt="" style="width: 55%; display: block;"/>
+ 
+<br>
+
 ## 2 - Utilização de Widgets Flutter Básicos - MaterialApp, Scaffold e AppBar
 
 - Descrição:
 ```
-Nesta atividade, foi a de implementar a funcionalidade de
-entrada de texto em um componente React Native. Tambem criamos um
-componente que permite aos usuários inserir textos e ver a tradução
-desse texto em forma de emojis de pizza. Isso envolve o uso do
-componente TextInput, a manipulação de eventos de alteração de
-texto (onChangeText), e a exibição do resultado traduzido em tempo
-real. Ao final desta atividade, se tem um componente React Native
-funcional que demonstra uma interação de entrada de texto.
+Nesta atividade, foi a de implementar um app simples utilizando widgets básicos MaterialApp,
+Scaffold e AppBar que juntos criam a estrutura básica de uma aplicação Flutter, facilitando 
+a implementação de uma interface de usuário coesa e funcional que segue os princípios do 
+design Material.
+ 
 ```
-
-- Criar pasta 'src' e em seguida pasta 'components\index.tsx' 
+ 
 
  <BR> 
- <img src="images/microatividade2.codigo.final.png" alt="" style="width: 55%; display: block;"/>
+ <img src="images/widgets.basicos.png" alt="" style="width: 55%; display: block;"/>
 
  <BR>
 
   - Resultados esperados
 ```
-Ao seguir esses passos, você terá implementado com sucesso a
-funcionalidade de entrada de texto em um componente React Native. O
-componente permitirá que o usuário insira texto e o traduzirá para
-emojis de pizza, similar ao exemplo fornecido.
+Os resultados aguardados para esta microatividade incluem a visualização, no
+simulador Android ou iOS, do texto inserido pelo aluno durante a etapa 3 do roteiro.
+Além disso, de maneira subjetiva, espera-se que o aluno adquira uma compreensão
+da estrutura de Widgets básicos em um aplicativo Flutter. Essa compreensão deve
+abranger conceitos essenciais, como MaterialApp, Scaffold, AppBar, e outros
+elementos fundamentais para o desenvolvimento em Flutter..
 ```
 
 <img src="images/microatividade2.final.png" alt="" style="width: 55%; display: block;"/>
 
-## 3 - Implementar um Componente de Lista Dinâmica (ScrollView)
+## 3 -  Criação de layouts básicos com os Widgets
 
 - Descrição
 ```
-Nesta atividade, foi a criar um componente de lista que
-permite exibir informações de forma dinâmica em um aplicativo React
-Native. Isso é útil quando você deseja criar uma lista que pode conter
-vários tipos de elementos, como texto e imagens, e que pode ser
-rolada verticalmente.
-```
+Nesta atividade, foi a de criar uma Crie um layout utilizando a composição de Widgets.Nesta 
+tela foram utilizados os widgets,Icon,Text,Column,Row,Padding,Conteiner entre outros.
 
-- Nessa atividade, optei por experimentar outro tamanho de fontes assim como criação de estilos
+```
 
 <BR>
 
-<img src="images/microatividade3.final.png" alt="" style="width: 55%; display: block;"/>
+<img src="images/widgets.layouts.basic.png" alt="" style="width: 55%; display: block;"/>
 
 <BR>
 
  Resultados esperados
 
  ``` 
-Ter criado um componente React Native que permite exibir informações de 
-forma dinâmica em uma lista rolável, contendo elementos heterogêneos, 
-como texto e imagens. Isso é útil para criar interfaces de usuário 
-mais complexas e interativas em seu aplicativo. A seguir são apresentadas 
-imagens do resultado após a execução do código.
-``` 
-<BR>
+Espera-se que, com esta atividade, o participante identifique alguns tipos de layouts
+disponíveis para a criação de aplicativos Flutter. Esses layouts ajudam a organizar os
+elementos na tela, utilizando Widgets como Column, Row, Text e Icon. A figura abaixo
+ilustra o resultado desejado, permitindo a escolha do widget de layout mais adequado
+com base nas necessidades do design.
+```  
 
-<img src="images/app.microatividade3.2.final.png" alt="" style="width: 55%; display: block;"/>
-
-
-## 4 - Criando o visualizador de listas
+## 4 - Utilização do Widget ListView em Flutter
 
 - Descrição
 ``` 
-Criar um componente React Native que permitirá exibir informações de forma 
-dinâmica em uma lista. Isso é útil quando você tem um grande conjunto de 
-dados e deseja que apenas os itens visíveis sejam renderizados para economizar recursos.
+Nesta atividade foi a de criar tela compostas por listas, e para isso, foi utilizado o widget ListView.
 
 ``` 
-### 1. Criando uma Lista Simples:
 
-- Lista simples usando flatList (você pode substituir os nomes da lista de acordo com sua
-necessidade)
+<BR>
 
-<img src="images/microatividade4.flatList.final.png" alt="" style="width: 55%; display: block;"/>
+<img src="images/widget.list.view.png" alt="" style="width: 55%; display: block;"/>
 
-## 2. Criando uma Lista com Seções:
-
-Lista com seções lógicas, talvez com cabeçalhos de seção, então um SectionList é o caminho a percorrer.
-Usando uma SectionList:
-
-<img src="images/microatividade4.listaBasica.final.png" alt="" style="width: 55%; display: block;"/>
-
+<BR>
 
  Resultados esperados
-``` 
-Ter um componente React Native que pode exibir informações de forma dinâmica 
-em uma lista, economizando recursos ao renderizar apenas os itens visíveis na tela.
-Poder personalizar esses componentes para atender às suas necessidades específicas ao 
-trabalhar com grandes conjuntos de dados.
-``` 
 
-## 5 - Empregar imagens,seja para exibir gráficos, ícones, fotos ou outros elementos visuais em um aplicativo React Native
+ ``` 
+Esta microatividade possibilita a criação da interface do usuário (UI) por meio de
+widgets, descrevendo a aparência da visualização de acordo com sua configuração e
+estado atual. Ao adicionar interatividade ao seu aplicativo Flutter, você terá como
+resultado uma lista visualmente organizada e funcional, utilizando o widget ListView.
 
+A imagem a seguir ilustra os dois procedimentos acima, mostrando a estrutura visual
+resultante da utilização do widget ListView.
+
+```  
+
+## 5 - Desenvolvimento de Outra Funcionalidade para o Widget em Flutter, widget Stack
 
 - Descrição
 ``` 
-Incorporar imagens em um aplicativo React Native. Imagens são usadas para exibir gráficos,
-ícones, fotos e outros elementos visuais em um aplicativo.  
+Em determinadas situações, é necessário empilhar um Widget sobre o outro.
+Observe que o texto está posicionado "acima" da imagem. O widget utilizado para
+criar essa pilha de widgets é o Stack
+
 ``` 
-
-Imagens de diferentes fontes, incluindo armazenamento local, rede e um esquema 'data:':
-
+ 
 <BR>
-<img src="images/displayImage.png" alt="" style="width: 55%; display: block;"/>
-
-<BR>
-Aqui foram adicionados estilos a uma imagem
-
-<BR>
-<img src="images/DisplayAnImageWithStyle.png" alt="" style="width: 55%; display: block;"/>
+<img src="images/widget.stack.png" alt="" style="width: 55%; display: block;"/>
 
 <BR>
 
 Resultados esperados
- 
-```
-Ter incorporado imagens ao aplicativo React Native e aprendido a aplicar estilos 
-às imagens para personalizá-las de acordo com suas necessidades.
-```
 
-## 6 Composição do app do Gato
+ ``` 
+Visualize algumas definições básicas que devem ser feitas antes da customização.
+Utilizando o mecanismo de layout do Flutter, os Widgets, aprenderá a usá-los para
+construir layouts, definir itens na vertical e horizontal, listas, fotos fixas, entre outros.
+Este procedimento proporcionará uma compreensão prática da funcionalidade do
+widget Stack, permitindo a criação de sobreposições de widgets em seu aplicativo
+Flutter, como exemplificado nas imagens a seguir. A imagem da direita apresenta o
+resultado do código apresentado acima.
 
-- Neste ultimo exercicio, modifique a funcionalidade para que utilizasse eventos e estado com isso o resultado foi que ao se digitar o nome, este é condiderado no dialogo.
-
-<BR>
-<img src="images/appGato.png" alt="" style="width: 55%; display: block;"/>
-
-<BR>
-
-# Desenvolvimento de um App (Parte 2) 
-
-- Descrição
-```
-Nessa atividade é tudo o que utilizado tudo que foi apresentado nas micro
-atividades anteriores. Além disso, também é varificado como o React
-Native responde a eventos.
-```
-
-- Contextualização
-```
-A empresa "Meeting" busca criar um aplicativo móvel eficaz para o
-cadastro de fornecedores, com listas e imagens de alta qualidade,
-economizando recursos e proporcionando uma excelente experiência
-ao usuário. A escolha da tecnologia React Native é crucial para
-estabelecer uma presença sólida no mercado móvel. Nesta atividade,
-você aprenderá os princípios básicos do React Native.
-```
-Requisitos Funcionais:
-
-- Cadastro de Fornecedores: O aplicativo deve permitir o cadastro
-de fornecedores, incluindo informações detalhadas, como nome,
-endereço, contato e categorias de produtos fornecidos. Essas
-informações serão exibidas utilizando componentes como <Text>,
-<TextInput>, e <Image>.
-
-- Listagem de Fornecedores: Deve ser possível visualizar uma lista
-de fornecedores cadastrados, com opções de pesquisa e filtragem
-com base em critérios como categoria ou localização. A lista de
-fornecedores será exibida utilizando componentes como <Text> e
-<Image>.
-
-- Associação de Imagens: O aplicativo deve permitir a associação de
-imagens aos perfis dos fornecedores. Os usuários devem poder
-fazer o upload de logotipos ou fotos relacionadas ao fornecedor,
-utilizando o componente <Image>.
-
-- Experiência de Usuário Intuitiva: A interface do aplicativo deve ser
-intuitiva e fácil de usar, garantindo que os usuários possam
-navegar, adicionar e editar informações de forma eficiente. Isso
-será alcançado usando componentes como <Text>, <TextInput>,
-e <Image>.
-
-## Apresentação do aplicativo
-
- - Aplicativo 'MeetingApp' tem o objetivo de atender as demandas basicas, tendo um start apartir de uma 
- lista pré estabelecida para podemos fazer filtros e edições,remoções e cadastros.
-
- 
-<BR>
-<img src="images/meeting_app.telas.png" alt="" style="width: 55%; display: block;"/>
-
-<BR>
-
- - Foi utilizado o 'Expo' que é uma plataforma de desenvolvimento que facilita a criação de aplicativos 
- React Native.
- 
- - Para sua execução esteja na pastas do projeto 'meetingApp' abra o prompt de comando e execute
- '> npx expo start' considerando que o emulador do android já esteja ativo
+```  
   
-<BR>
-<img src="images/meeting_app.expo.png" alt="" style="width: 55%; display: block;"/>
-
-<BR>
-
- - A apresentação esta em forma de lista com seções onde temos imagens associadas a cada item que podem ser 
- alteradas realizando-se um click sobre os mesmos onde é apresentada uma tela para edição e remoção
-
-
-<BR>
-<img src="images/meeting_app.telas.png" alt="" style="width: 55%; display: block;"/>
-
-<BR>
-
- - A adição é feita clicando no 'floating button +' abaixo a direita e o filtro no button acima a direita
-
-
-<BR>
-<img src="images/meeting_app.cadastro.png" alt="" style="width: 55%; display: block;"/>
-
-<BR>
-
-- As edições,remoções são executadas através de um click sobre o item da lista onde será apresentada
-uma tela onde é possivel alterar qualquer campo
-
-<BR>
-<img src="images/meeting_app.edicao.png" alt="" style="width: 55%; display: block;"/>
-
-<BR>
-
-- obs1: a carga inicial e feita através de arquivos 'MOCKs' tanto para a lista de clientes
-como para as categorias
-
-- obs2: as operações de CRUD não são persistidas em banco,api ou local storage, são manipulados
-em memoria através de um Context Provider, sendo assim, o mock clientes não é alterado 
-
-- obs2: devido as images se tratarem de 'links' com imagens da internet, sua renderização vai depender
-da 'qualidade de internet' tanto no seu aparelho quanto no host de origem 
-
-<BR>
-<img src="images/meeting_app.mocks.png" alt="" style="width: 55%; display: block;"/>
-
-<BR>
-
-- A aplicação do filtro é acionada através do botão 'lupa' acima a direita onde 
-é apresentado um 'form modal' modal com as opções de filtro que são, categorias
-e conteudo do nome da empresa. Tambem existe um compomente 'chek-box' onde e
-feito o controle se o filtro esta ou não aplicado a lista.
  
  
-<BR>
-<img src="images/meeting_app.filtro.png" alt="" style="width: 55%; display: block;"/>
-
-<BR>
-
-- obs: a remoção da aplicação do filtro é feita voltando a tela de filtro e 
-removendo a seleção do 'check-box' e confirmando.
-
- 
-<BR>
-<img src="images/meeting_app.remove.filtro.png" alt="" style="width: 55%; display: block;"/>
-
-<BR>

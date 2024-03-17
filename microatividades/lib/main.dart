@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:microatividades/microatividades/widgets_basicos.dart'; // Certifique-se de que este caminho está correto
+import 'package:microatividades/microatividades/layouts_basicos.dart';
+import 'package:microatividades/microatividades/widget_list_view.dart';
+import 'package:microatividades/microatividades/widget_stack.dart';
+import 'package:microatividades/microatividades/widgets_basicos.dart'; 
 
 void main() {
   runApp(const MeuApp());
@@ -46,14 +49,36 @@ class PaginaPrincipal extends StatelessWidget {
               title: const Text('Widgets Flutter Básicos'),
               onTap: () {
                 Navigator.pop(context);
-                Navigator.push(context, MaterialPageRoute(builder: (context) => exemplo1())); // Certifique-se de que 'exemplo1' está definido corretamente
+                Navigator.push(context, MaterialPageRoute(builder: (context) => exemplo1())); 
               },
             ),
+            ListTile(
+              title: const Text('Layouts básicos com os Widgets'),
+              onTap: () {
+                Navigator.pop(context);
+                Navigator.push(context, MaterialPageRoute(builder: (context) => exemplo2()));
+              },
+            ),
+            ListTile(
+              title: const Text('Utilização do Widget ListView'),
+              onTap: () {
+                Navigator.pop(context);
+                Navigator.push(context, MaterialPageRoute(builder: (context) => exemplo3()));
+              },
+            ),
+             ListTile(
+              title: const Text('Utilização do Widget Stack'),
+              onTap: () {
+                Navigator.pop(context);
+                Navigator.push(context, MaterialPageRoute(builder: (context) => exemplo4()));
+              },
+            ),            
             // Adicione mais ListTile para cada exemplo
           ],
         ),
       ),
-      body:  Center(
+      body: Padding(
+        padding: const EdgeInsets.fromLTRB(10, 100,30,50),
         child: BigTextWidget(),
       ),
     );
@@ -61,9 +86,10 @@ class PaginaPrincipal extends StatelessWidget {
 }
 
 class BigTextWidget extends StatelessWidget {
-  final String longText = "Este aplicativo tem como fim a apresentação "
-      "dos exemplos solicitados na missão sendo assim optei pela possibilidade "
-      "de acioná-los via menu Drawer.";
+  final String longText = "Este aplicativo tem como fim a apresentação" 
+     " dos exercicios solicitados "
+      " na missão através de menu Drawer ou hamburger acima ";
+      
 
   BigTextWidget({super.key});
 
@@ -75,12 +101,11 @@ class BigTextWidget extends StatelessWidget {
         child: Text(
           longText,
           style:const  TextStyle(
-            fontSize: 18.0, // Tamanho da fonte
-            fontWeight: FontWeight.bold, // Peso da fonte
-            color: Colors.black87, // Cor do texto
-            fontStyle: FontStyle.italic, // Estilo da fonte
-            // Outras propriedades de estilo podem ser adicionadas aqui
-          ),
+            fontSize: 18.0,  
+            fontWeight: FontWeight.bold,  
+            color: Colors.black87,  
+            fontStyle: FontStyle.italic, 
+           ),
         ),
       ),
     );
