@@ -36,19 +36,19 @@ class BodyWidget extends StatelessWidget {
     return Column(
       children: [
         Container(
-          height: 250, // Defina uma altura apropriada para o primeiro ListView
+          height: 250,  
           decoration: BoxDecoration(
-            border: Border.all(color: Colors.blue, width: 2), // Adiciona uma borda
-            borderRadius: BorderRadius.circular(5), // Raio da borda
+            border: Border.all(color: Colors.blue, width: 2),  
+            borderRadius: BorderRadius.circular(5),  
           ),
           child: FotoStack(),
         ),
-        SizedBox(height: 10), // Espaçamento opcional entre os containers
+        SizedBox(height: 10),  
         Container(
-          height: 250, // Defina uma altura apropriada para o segundo ListView
+          height: 250,  
           decoration: BoxDecoration(
-            border: Border.all(color: Colors.blue, width: 2), // Adiciona uma borda
-            borderRadius: BorderRadius.circular(5), // Raio da borda
+            border: Border.all(color: Colors.blue, width: 2),  
+            borderRadius: BorderRadius.circular(5),  
           ),
           child: SquareStack(),
         ),
@@ -80,8 +80,8 @@ class FotoStack extends StatelessWidget {
                    )
           ),
           Positioned(
-            right: 8, // Espaçamento da borda direita
-            top: (250 / 3) * 2, // Posiciona a 2/3 do topo
+            right: 8, 
+            top: (250 / 3) * 2,  
             child:Container(
             width: 80,
             height: 25,
