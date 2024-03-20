@@ -23,7 +23,7 @@ de Microatividades (Parte 1) e a segunda, desenvolvimento de um App (Parte 2)
 https://sway.cloud.microsoft/s/MaC4thQaZwjelq5H/embed
 
 
-- obs: cada microatividade esta sendo representada como um compomente
+- obs: cada microatividade esta sendo representada como um widget
 
 # Microatividades (Parte 1)
 
@@ -153,7 +153,7 @@ fundamentos necessários para criar aplicativos incríveis.
  
 <br>
 
-# Inicio das Microatividades (Compomentes)
+# Microatividades (Compomentes)
 
 ```
  Foi adaptado um menu drawer para o acesso as atividades, a numerção das atividades, 
@@ -281,5 +281,73 @@ resultado do código apresentado acima.
 
 ```  
   
- 
+ ## Missão Prática | Posso criar um App de outra forma!
+
+ ```
+    Nessa atividade recebemos a missão de realizar melhorias em um app pronto tendo que incluir novas 
+   funcionalidades com o objetivo de proporcionar uma experiência dos usuários mas cuidando em 
+   manter funcionalidades basicas existentes.
+ ```
+   - Obviamente serão apenas indicações de possiveis soluções a serem desenvolvidas como consultar pacotes de viagens, 
+   efetuar reservas, entrar em contato com a equipe e obter informações detalhadas sobre a localização e as avaliações 
+   de estrelas para cada destino etc, etc...
+
+
+    - Solução original
+
+<BR>
+<img src="images/explore.original.png" alt="" style="width: 25%; display: block;"/>
+
+<BR>    
+
+    - Solução proposta
+
+<BR>
+<img src="images/explore.solucao.png" alt="" style="width: 65%; display: block;"/>
+
+<BR>      
+
+1 - modificação dos icones 
+
+ - Essa modificação tem como intuito promover ao usuário
+acesso rapido a : 
+
+   - contato e-mail
+   - central de seguro viagem
+   - compartilhamento
+
+<BR>
+<img src="images/explore.icones.png" alt="" style="width: 35%; display: block;"/>
+
+<BR>    
+
+2 - Carrossel de imagens
+
+- Apresentação de um carrossel de imagems que ao se clicar sob a imagem sera 
+aberto um form modal contendo  detalhe, informações etc..
+
+
+<BR>
+<img src="images/explore.carousel.modal.png" alt="" style="width: 55%; display: block;"/>
+
+<BR> 
+
+3 - Pesquisa de destinos
+
+  Fornece a lista de destinos em função do resultado de pesquisa qua ao se 
+clicar sob o item, será aberta o form modal contendo detalhes 
+
+obs: para fins de apresentação, foi usado um array 'mock'.
+
+
+<BR>
+<img src="images/explore.pesquisal.png" alt="" style="width: 25%; display: block;"/>
+
+<BR>
+
+
+
+
+
+
  

@@ -7,7 +7,7 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const String appTitle = 'Explorer Agency';
+    const String appTitle = 'Explore Mundo';
     return MaterialApp(
       title: appTitle,
       home: Scaffold(
