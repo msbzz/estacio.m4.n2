@@ -106,7 +106,7 @@ Non-Bundled Plugins:
     io.flutter (76.3.2) 
 
 ``` 
-- Android Studio
+- Android Studio instalado
 
  
 <img src="images/androidStudio.png" alt="" style="width: 55%; display: block;"/>
@@ -149,7 +149,7 @@ fundamentos necessários para criar aplicativos incríveis.
 
 ```
  <BR> 
- <img src="images/microatividade1.final.png" alt="" style="width: 85%; display: block;"/>
+ <img src="images/app.microatividades.png" alt="" style="width: 85%; display: block;"/>
  
 <br>
 
@@ -345,6 +345,37 @@ obs: para fins de apresentação, foi usado um array 'mock'.
 
 <BR>
 
+Organização do código
+
+Estruturalmente o código esta dividido em :
+
+1. **MyApp e Home Widget**:
+   - O ponto de entrada do aplicativo (`MyApp`) configura o tema e a tela inicial (`Home`). A tela inicial parece servir como um hub para as diversas funcionalidades do aplicativo, incluindo a visualização de destinos em destaque e a busca por destinos específicos.
+
+2. **DestinationsCarousel**:
+   - Um widget que exibe um carrossel de imagens dos destinos turísticos. Cada imagem no carrossel é interativa, permitindo aos usuários tocar para obter mais informações sobre o destino. Isso sugere um foco visual forte no aplicativo, destacando destinos atraentes para os usuários.
+
+3. **DestinationSearchWidget**:
+   - Permite aos usuários pesquisar destinos turísticos por nome. A pesquisa atualiza dinamicamente os resultados, melhorando a interatividade e a usabilidade do aplicativo ao facilitar a localização de destinos específicos.
+
+4. **ShowModalDestinations**:
+   - Um widget que é chamado para mostrar detalhes de um destino turístico em uma modal. Isso inclui a imagem do destino, descrição, preço e outras informações relevantes, como avaliações. A presença de um botão "Ver Detalhes" sugere que mais informações ou ações podem ser disponibilizadas, como reservar o pacote turístico.
+
+5. **Dados dos Destinos (imgDestinations)**:
+   - Uma lista de mapas que contém informações sobre os destinos turísticos, incluindo URLs de imagens, descrições textuais e preços. Esta lista serve como uma base de dados dentro do aplicativo, permitindo a alimentação dos widgets com informações relevantes.
+
+### Objetivos do Projeto
+
+Com base nos componentes identificados, os objetivos principais do projeto parecem ser:
+
+- **Promover Destinos Turísticos**: Apresentar aos usuários uma seleção atraente de destinos turísticos, incentivando o interesse e a exploração de novos lugares.
+- **Facilitar a Descoberta**: Permitir que os usuários descubram facilmente informações sobre destinos turísticos, incluindo imagens, preços e descrições.
+- **Interatividade e Usabilidade**: Oferecer uma interface interativa e fácil de usar, onde os usuários podem pesquisar destinos, avaliar opções e obter detalhes completos sobre pacotes turísticos.
+- **Promoção de Pacotes Turísticos**: Além de fornecer informações, o aplicativo provavelmente visa facilitar a reserva ou a compra de pacotes turísticos, embora os detalhes específicos da implementação dessa funcionalidade não tenham sido fornecidos nos códigos.
+
+### Conclusão
+
+O projeto é um aplicativo Flutter para uma agência de turismo, projetado para ser visualmente atraente, informativo e fácil de navegar. Ele combina elementos visuais, como um carrossel de imagens, com funcionalidades interativas, como pesquisa e avaliação de destinos, para criar uma experiência de usuário rica e engajadora voltada para a exploração e reserva de viagens turísticas.
 
 
 
